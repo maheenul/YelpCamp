@@ -6,9 +6,15 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set('view engine','ejs');
 
 var campgrounds = [
-    {name:"Salmon Creek", image:"http://www.photosforclass.com/download/pixabay-548022?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Fec31b90f2af61c22d2524518b7444795ea76e5d004b014439df5c579afe8b0_960.jpg&user=bhossfeld"},
-    {name: "Sugar Valley", image:"http://www.photosforclass.com/download/pixabay-1208201?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2Fe837b1072af4003ed1584d05fb1d4e97e07ee3d21cac104497f8c47da7e5b0bd_960.jpg&user=Free-Photos"},
-    {name:"Granite Hill", image:"http://www.photosforclass.com/download/flickr-7842069486"}
+    {name:"Salmon Creek", image:"https://cdn.pixabay.com/photo/2014/11/27/18/36/tent-548022_1280.jpg"},
+    {name: "Sugar Valley", image:"https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg"},
+    {name:"Granite Hill", image:"http://www.photosforclass.com/download/flickr-5641024448"},
+    {name:"Salmon Creek", image:"https://cdn.pixabay.com/photo/2014/11/27/18/36/tent-548022_1280.jpg"},
+    {name: "Sugar Valley", image:"https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg"},
+    {name:"Granite Hill", image:"http://www.photosforclass.com/download/flickr-5641024448"},
+    {name:"Salmon Creek", image:"https://cdn.pixabay.com/photo/2014/11/27/18/36/tent-548022_1280.jpg"},
+    {name: "Sugar Valley", image:"https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg"},
+    {name:"Granite Hill", image:"http://www.photosforclass.com/download/flickr-5641024448"}
 ];
 
 app.get('/',function(req,res){
