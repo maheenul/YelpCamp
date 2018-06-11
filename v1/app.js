@@ -14,6 +14,9 @@ var campgrounds = [
     {name:"Granite Hill", image:"http://www.photosforclass.com/download/flickr-5641024448"},
     {name:"Salmon Creek", image:"https://cdn.pixabay.com/photo/2014/11/27/18/36/tent-548022_1280.jpg"},
     {name: "Sugar Valley", image:"https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg"},
+    {name:"Granite Hill", image:"http://www.photosforclass.com/download/flickr-5641024448"},
+    {name:"Salmon Creek", image:"https://cdn.pixabay.com/photo/2014/11/27/18/36/tent-548022_1280.jpg"},
+    {name: "Sugar Valley", image:"https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg"},
     {name:"Granite Hill", image:"http://www.photosforclass.com/download/flickr-5641024448"}
 ];
 
